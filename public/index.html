@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DNS Server Application</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>DNS Server Application</h1>
+
+      <!-- Register Section -->
+      <h2>Register DNS Entry</h2>
+      <div class="section">
+        <input type="text" id="domain" placeholder="Domain Name" />
+        <input type="text" id="ip" placeholder="IP Address" />
+        <input type="text" id="ipClass" placeholder="IP Class" />
+        <button id="registerBtn">Register</button>
+      </div>
+
+      <!-- Resolve Section -->
+      <h2>Resolve DNS Entry</h2>
+      <div class="section">
+        <input type="text" id="resolveDomain" placeholder="Domain Name" />
+        <input type="text" id="resolveIP" placeholder="IP Address" />
+        <button id="resolveBtn">Resolve</button>
+      </div>
+
+      <!-- Delete Section -->
+      <h2>Delete DNS Entry</h2>
+      <div class="section">
+        <input type="text" id="deleteDomain" placeholder="Domain Name" />
+        <button id="deleteBtn">Delete</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
